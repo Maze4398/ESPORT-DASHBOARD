@@ -18,5 +18,5 @@ def delete_columns_from_json(json_file, columns_to_delete):
 
 
 json_file = r'E:\ESPORTS ANALYSIS PROJECT\Data_cleaning\data_cleaning\JSON\leagues.json'
-columns_to_delete = ['ticket', 'banner']  # Replace with the columns you want to delete
+columns_to_delete = ['ticket', 'banner']  #  with the columns you want to delete
 delete_columns_from_json(json_file, columns_to_delete)
